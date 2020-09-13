@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+em,
+i {
+	/* 取消斜体样式 */
+	font-style: normal
+}
+
+li {
+	list-style: none
+}
+
+img {
+	/* border 0照顾低版本浏览器 如果图片外面包含链接会有边框问题 */
+	border: 0;
+	/* 取消图片底部有空白间隙问题 */
+	vertical-align: middle
+}
+
+button {
+	/* 鼠标变小手 */
+	cursor: pointer
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c81623
+}
+
+button,
+input {
+	font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+	border: 0;
+	outline: none;
+	
+}
+
+body {
+	/* css3抗锯齿形 让文字显示更清晰 */
+	-webkit-font-smoothing: antialiased;
+	background-color: #fff;
+	/* "\5B8B\4F53"宋体,有些浏览器不能识别汉字,所以转Unicode转码 */
+	font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+	color: #666
+}
+
+.hide,
+.none {
+	display: none
+}
+/* 清楚浮动 */
+.clearfix:after {
+	visibility: hidden;
+	clear: both;
+	display: block;
+	content: ".";
+	height: 0
+}
+
+.clearfix {
+	*zoom: 1
+}

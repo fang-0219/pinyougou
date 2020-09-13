@@ -1,0 +1,103 @@
+/* 列表页专有css */
+.nav {
+    overflow: hidden;
+}
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 4px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    line-height: 47px;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+    
+    line-height: 47px;
+}
+.sk_con ul li:last-child a::after {
+    content: '\e906';
+    font-family: "icomoon";
+}
+
+/* 列表页主体部分 */
+.sk_container .sk_bd ul {
+    margin-top: 15px;
+}
+.sk_container .sk_bd ul li {
+    position: relative;
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+}
+.sk_container .sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_container .sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+.sk_bd p {
+    font-size: 14px;
+    color: #666;
+}
+.price strong {
+    font-size: 22px;
+    color: #e60012;
+}
+.price span {
+    text-decoration: line-through;
+}
+.sk_bd .bar {
+    width: 290px;
+    height: 13px;
+    margin: 10px 0 10px 5px;
+}
+.sk_bd .out {
+    display: inline-block;
+    width: 134px;
+    height: 13px;
+    border: 1px solid #ed282e;
+    border-radius: 7px;
+}
+.sk_bd .in {
+    width: 87%;
+    height: 13px;
+    background-color: #ed282e;
+    border-radius: 7px 0 0 7px;
+}
+.sk_bd .buy_now {
+    position: absolute;
+    width: 290px;
+    height: 52px;
+    bottom: 0;
+    background-color: #b1191a;
+    font-size: 20px;
+    line-height: 52px;
+    color: #fff;
+    
+}
